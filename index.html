@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/icon.png">
+   
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Crafting beautiful web experiences</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="container">
+            <img src="img\1.png" alt="Professional Photo" class="profile-photo" align="Right">
+            <h2>Hi, I'm Sidharth</h2>
+            <p>Web Developer | Problem Solver | Innovator</p>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget purus non justo pretium ultrices. Phasellus vel neque accumsan, facilisis lorem ut, dictum odio.</p>
+            <ul>
+                <li><strong>Education:</strong> Bachelor’s Degree in Computer Science</li>
+                <li><strong>Experience:</strong> 3+ years in web development</li>
+                <li><strong>Skills:</strong> HTML, CSS, JavaScript, Python, Java, C++</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Description of the first project. <a href="img\Screen Recording 2024-12-24 201223.mp4">View Details</a></p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Description of the second project. <a href="img\20241224-1448-36.7606604.mp4">View Details</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Comment:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sidharth. All Rights Reserved.</p>
+        </div>
+    </footer>
+     <script src="script.js"></script>
+</body>
+</html>
